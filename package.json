@@ -1,0 +1,26 @@
+{
+  "name": "bench-sequelize-bookshelf",
+  "version": "1.0.0",
+  "description": "A benchmark between SequelizeJS and bookshelfjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "benchmark",
+    "bookshelf",
+    "sequelize"
+  ],
+  "author": "Alan Hoffmeister <alanhoffmeister@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^1.0.0",
+    "bookshelf": "^0.8.2",
+    "lodash": "^3.10.1",
+    "sequelize": "^3.12.2",
+    "sqlite3": "^3.1.0"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1"
+  }
+}
